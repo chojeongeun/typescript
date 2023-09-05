@@ -16,6 +16,15 @@ let student1 = {
     name: 'David',
     age: 20,
     isFemale: false,
+    1: 'C',
     //address: 'Seoul',
 };
 //student1.isFemale = false;
+let student2 = {
+    name: 'Emily',
+    age: 30,
+    isFemale: true,
+    address: 'Busan',
+    2: 'B',
+};
+student2[2] = 'Z';
